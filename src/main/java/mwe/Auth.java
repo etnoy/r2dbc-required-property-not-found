@@ -11,7 +11,7 @@ import lombok.With;
 @EqualsAndHashCode
 @Builder
 @With
-public final class Auth implements Serializable {
+public class Auth implements Serializable {
 
   private static final long serialVersionUID = -1511082836956413928L;
 

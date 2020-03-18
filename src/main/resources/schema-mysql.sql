@@ -5,9 +5,7 @@ USE core;
 
 CREATE TABLE user (
   id INT AUTO_INCREMENT,
-  auth INT,
-
-  PRIMARY KEY (id) )
+	PRIMARY KEY (id) )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4;
 

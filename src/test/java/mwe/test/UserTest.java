@@ -20,15 +20,7 @@ public class UserTest {
   @Test
   public void initialTest() throws Exception {
 
-    System.out.println("test");
-
-    System.out.println(userRepository.findById(99).block());
-
-    userRepository.findById(99);
-
-    assertThat(userRepository.findById(99).block().toString(), is("asdf"));
-
-    assertThat(false, is(true));
+    userRepository.findById(1).block();
 
   }
 
