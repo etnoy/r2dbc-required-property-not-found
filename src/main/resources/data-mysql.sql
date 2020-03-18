@@ -1,0 +1,2 @@
+INSERT INTO `user` VALUES (99, 1);
+INSERT INTO `auth` VALUES (13);
